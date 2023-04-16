@@ -1,0 +1,327 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* GENERAL RULES */
+
+a {
+    font-weight: 400;
+    text-decoration: none;
+    
+}
+
+a + a {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+button {
+    padding: 7px 12px;
+    border-radius: 20px 20px;
+    border: none;
+    background-color: white;
+    
+}
+
+.logo-discord {
+    width: 50%;
+}
+
+
+.button-white {
+    color: black;
+}
+
+.button-black {
+    color: white;
+    background-color: black;
+   
+}
+
+.button-blue {
+    background-color: #8EA1E1;
+
+}
+
+
+
+
+/* HEADER STYLE */
+
+.section-1 {
+    width: 100%;
+    height: 80px;
+    background-color: #265EE9;
+    
+
+}
+
+
+.container-menu {
+    font-size: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 15px 0 ;
+}
+
+
+.row {
+    display: flex;
+    width: 70%;
+    height: 50px;
+    background-color: transparent;
+}
+
+
+
+
+.col-small {
+   
+    border-radius: 40%;
+    padding: 10px;
+    text-align: center;
+    width: 20%;
+    height: 50px;
+    background-color: transparent ;
+
+}
+
+
+.col-large {
+    
+    padding: 15px;
+    text-align: center;
+    width: 60%;
+    height: 50px;
+    border: 2px dashed black;
+
+}
+
+.b-menu {
+    color: white;
+}
+
+
+/* END HEADER STYLE */
+
+/* GENERAL ROLE CONTAINER */
+.container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 50px 0 ;
+}
+
+/* SEZIONE 1 */
+
+.section-2{
+    background-image: url(./img/jumbo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px; 
+    
+
+
+}
+
+
+.row-60 {
+    text-align: center;
+    display: flex;
+    width: 45%;
+    height: 380px;
+    border: 2px dashed black;
+    color: white;
+}
+
+.box-paragrafo-1 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    
+}
+
+
+.title-download {
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+    
+}
+
+.text-top {
+    font-weight: 500;
+  
+}
+
+.button-accedi{
+    color: rgb(0, 0, 0);
+    font-size: 10px;
+}
+
+
+.buttons-top {
+    padding: 20px;
+    
+}
+
+.button-left {
+    background-color: white;
+    margin-right: 20px;
+
+}
+
+.button-right {
+    background-color: black;
+    margin-left: 20px;
+
+}
+
+
+
+
+/* SEZION 2-4 */
+
+
+.row-80 {
+    display: flex;
+    width: 80%;
+    height: 600px;
+    background-color: rgb(133, 134, 135);
+    
+    
+}
+
+.col-40 {
+    width: 40%;
+    background-color: rgb(249, 133, 187);
+    border: 2px dashed black;
+
+
+}
+
+.col-60 {
+    width: 60%;
+    background-color: rgb(40, 129, 218);
+    border: 2px dashed black;
+
+}
+
+.empty{
+    background-color: white;
+}
+
+
+.reverse {
+    background-color: gainsboro;
+}
+
+/* CONTAINER GRANDE UNICO */
+
+.section-3{
+    background-color: gainsboro;
+}
+
+
+.higther-row {
+    width: 80%;
+    background-color: rgb(40, 129, 218);
+   
+
+}
+
+.col-80 {
+    height: 800px;
+    width: 100%;
+    background-color: rgb(16, 133, 30);
+    border: 2px dashed black;
+
+}
+
+  /* CONTAINER SUDDIVISO IN 5 SEZIONI  */
+
+.section-footer {
+    background-color: black;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 15px 0px 50px ;
+}
+
+/* FOOTER */
+
+.row-footer {
+    display: flex;
+    width: 80%;
+    height: 500px;
+    background-color: rgb(232, 170, 13);
+}
+
+.col-footer-33 {
+    width: 33%;
+    height: 500px;
+    background-color: palevioletred;
+    border: 2px dashed black;
+}
+.col-footer-17{
+    width: 17%;
+    height: 500px;
+    background-color: rgb(15, 201, 195);
+    border: 2px dashed rgb(251, 250, 250);
+
+
+}
+
+/* FOOTER BASSO */
+
+.section-footer-basso {
+    margin-top: 1px;
+    width: 100%;
+    background-color: black;
+}
+
+
+.container-footer-basso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 25px 0px 50px ;
+}
+
+
+.row-footer-basso {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 80px;
+    background-color: rgb(49, 245, 203);
+}
+
+.bottoni-bassi {
+    padding-top: 1px;
+    text-align: center;
+    align-self: center;
+    width: 12%;
+    height: 30px;
+    background-color: palevioletred;
+    border: 1px dashed black
+}
+
+
+
+
+
